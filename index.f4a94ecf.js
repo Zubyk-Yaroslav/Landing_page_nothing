@@ -1,0 +1,3 @@
+document.addEventListener("DOMContentLoaded",function(){e()});var e=function(){var e=document.querySelector(".header .header__buttons-toggle"),n=document.querySelector("body"),o=document.querySelector("#menu"),c=document.querySelectorAll(".menu .link-hovered");e&&(e.addEventListener("click",function(c){t(n,o,e)}),c.forEach(function(c){c.addEventListener("click",function(c){t(n,o,e)})}))},t=function(e,t,n){e.classList.toggle("body--fixed"),t.classList.toggle("menu--active"),n.classList.toggle("header__buttons-toggle--active")};//# sourceMappingURL=index.f4a94ecf.js.map
+
+//# sourceMappingURL=index.f4a94ecf.js.map
