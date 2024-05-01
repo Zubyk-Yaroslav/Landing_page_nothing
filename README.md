@@ -17,5 +17,10 @@ Hello, it's a simple Landing product page. Here you can find the different produ
 ```
 $ npm install / npm i
 $ npm start
-$ npm run lint for lint checking (html, js and scss)
+```
+
+To run this command, for lint checking (html, js and scss)
+
+```
+$ npm run lint
 ```
