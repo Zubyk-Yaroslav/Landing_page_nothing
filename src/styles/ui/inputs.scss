@@ -1,6 +1,7 @@
 input[type="text"],
 input[type="email"],
-textarea {
+textarea,
+input:-webkit-autofill {
   width: 100%;
   border-radius: rem(8);
   background: #f8f8fa;
@@ -11,6 +12,8 @@ textarea {
   font-family: $spacemono;
   transition: 0.3s ease-in-out;
   border: rem(1) solid #fff;
+  // -webkit-box-shadow: 0 0 0 1000px white inset !important;
+  // background-color: transparent !important;
 
   &::placeholder {
     color: #7e7e83;
@@ -35,6 +38,10 @@ textarea {
 input[type="submit"] {
   width: 100%;
   cursor: pointer;
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px #f8f8fa inset !important;
 }
 
 // input[type="text"],
